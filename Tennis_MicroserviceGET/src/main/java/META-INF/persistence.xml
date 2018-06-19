@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="Tennis_MicroserviceGET">
+		<class>get.jpa.Appointment</class>
+		<class>get.jpa.Court</class>
+		<class>get.jpa.Courttype</class>
+		<class>get.jpa.Employee</class>
+		<class>get.jpa.Game</class>
+		<class>get.jpa.Match</class>
+		<class>get.jpa.Player</class>
+		<class>get.jpa.Rank</class>
+	</persistence-unit>
+</persistence>
